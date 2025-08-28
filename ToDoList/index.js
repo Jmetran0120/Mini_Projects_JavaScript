@@ -36,3 +36,8 @@ function showTask(){
 }
 showTask();
 
+taskInput.addEventListener("keypress", function(e){
+    if (e.key === "Enter"){
+        addTask();
+    }
+});
